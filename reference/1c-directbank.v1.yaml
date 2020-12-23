@@ -144,6 +144,13 @@ paths:
                   dateOfBirth: '1996-08-24'
         description: Post the necessary fields for the API to create a new user.
       description: Create a new user.
+  /getsettings:
+    post:
+      summary: ''
+      operationId: post-getsettings
+      responses:
+        '200':
+          description: OK
 components:
   schemas:
     User:
